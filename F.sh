@@ -66,39 +66,39 @@ echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
 #Cloudflare
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/cfo.sh && chmod +x cfo.sh && ./cfo.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/cfo.sh && chmod +x cfo.sh && ./cfo.sh
 
 #SSH OVPN
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/ssh-vpno.sh && chmod +x ssh-vpno.sh && ./ssh-vpno.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/ssh-vpno.sh && chmod +x ssh-vpno.sh && ./ssh-vpno.sh
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/sstpo.sh && chmod +x sstpo.sh && ./sstpo.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/sstpo.sh && chmod +x sstpo.sh && ./sstpo.sh
 
 #SSR
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/ssro.sh && chmod +x ssro.sh && ./ssro.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/ssro.sh && chmod +x ssro.sh && ./ssro.sh
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/sodosoko.sh && chmod +x sodosoko.sh && ./sodosoko.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/sodosoko.sh && chmod +x sodosoko.sh && ./sodosoko.sh
 
 #WG
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/wgo.sh && chmod +x wgo.sh && ./wgo.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/wgo.sh && chmod +x wgo.sh && ./wgo.sh
 
 #V2RAY
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/ins-vto.sh && chmod +x ins-vto.sh && ./ins-vto.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/ins-vto.sh && chmod +x ins-vto.sh && ./ins-vto.sh
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/trojango.sh && chmod +x trojango.sh && ./trojango.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/trojango.sh && chmod +x trojango.sh && ./trojango.sh
 
 #L2TP
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/ipseco.sh && chmod +x ipseco.sh && ./ipseco.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/ipseco.sh && chmod +x ipseco.sh && ./ipseco.sh
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/A/I/U/E/O/set-bro.sh && chmod +x set-bro.sh && ./set-bro.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/A/I/U/E/O/set-bro.sh && chmod +x set-bro.sh && ./set-bro.sh
 
 #WEBSOCKET
 
-wget https://raw.githubusercontent.com/dpvpn/CDN/main/websock.sh && chmod +x websock.sh && ./websock.sh
+wget https://raw.githubusercontent.com/Wenisaputri/CDN/main/websock.sh && chmod +x websock.sh && ./websock.sh
 
 rm -f sc.sh
 
@@ -124,7 +124,7 @@ rm -f set-bro.sh
 
 rm -f websock.sh
 
-wget https://raw.githubusercontent.com/dpvpn/sce/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/Wenisaputri/sce/install.sh && chmod +x install.sh && ./install.sh
 
 cat <<EOF> /etc/systemd/system/autosett.service
 
@@ -152,7 +152,7 @@ systemctl daemon-reload
 
 systemctl enable autosett
 
-wget -O /etc/set.sh "https://raw.githubusercontent.com/dpvpn/sc/main/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/Wenisaputri/sc/main/set.sh"
 
 chmod +x /etc/set.sh
 
@@ -272,7 +272,7 @@ if [ ! -e /root/log-install.txt ]; then
 
   sleep 0.5
 
-  wget https://raw.githubusercontent.com/dpvpn/sce/main/log.sh && chmod +x log.sh && ./log.sh
+  wget https://raw.githubusercontent.com/Wenisaputri/sce/main/log.sh && chmod +x log.sh && ./log.sh
 
   else
 
