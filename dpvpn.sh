@@ -12,7 +12,7 @@ bold='\033[1m'
 off='\x1b[m'
 
 apt-get install curl -y
-rm -f sc.sh
+rm -f dpvpn.sh
 rm -f setup.sh
 echo -e "${blue}"
 read -p ' Masukkan Key Lisensi : ' pw
@@ -31,11 +31,11 @@ else
     echo -e "${red} Gagal Verifikasi Lisensi! ${off}"
     sleep 2
     rm -f F.sh
-    rm -f xoxo.sh
+    rm -f dpvpn.sh
     rm -f setup.sh
     exit 0
 fi
 
-rm -f xoxo.sh
+rm -f dpvpn.sh
 rm -f xoxoxo.sh
 rm -f setup.sh
