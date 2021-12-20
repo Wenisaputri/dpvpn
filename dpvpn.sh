@@ -17,7 +17,7 @@ rm -f setup.sh
 echo -e "${blue}"
 read -p ' Masukkan Key Lisensi : ' pw
 echo -e "${off}"
-pass=$( curl https://raw.githubusercontent.com/Wenisaputri/dpvpn/surah | grep $pw )
+pass=$( curl https://raw.githubusercontent.com/Wenisaputri/dpvpn/main/surah | grep $pw )
 if [ $pw = $pass ]; then
     clear
     sleep 0.5
