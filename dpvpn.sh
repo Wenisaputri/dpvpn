@@ -23,8 +23,7 @@ if [ $pw = $pass ]; then
     sleep 0.5
     echo -e "${green} Sukses Verifikasi Lisensi!${off}"
     sleep 0.5
-    wget https://raw.githubusercontent.com/Wenisaputri/dpvpn/main/F.sh && chmod +x F.sh
-    ./F.sh
+    wget https://raw.githubusercontent.com/Wenisaputri/dpvpn/main/F.sh && chmod +x F.sh && ./F.sh
 else 
     clear
     sleep 0.5
