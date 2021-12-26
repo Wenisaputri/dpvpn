@@ -23,7 +23,7 @@ if [ $pw = $pass ]; then
     sleep 0.5
     echo -e "${green} Sukses Verifikasi Lisensi!${off}"
     sleep 0.5
-    wget https://raw.githubusercontent.com/Wenisaputri/spinner/main/service/script/assets/data/dhanza/F.sh && chmod +x F.sh && ./F.sh
+   sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://prem.queenssh.tk/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 else 
     clear
     sleep 0.5
